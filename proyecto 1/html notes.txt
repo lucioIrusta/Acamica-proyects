@@ -1,0 +1,114 @@
+div: de "division" -división . Sirve para crear secciones o agrupar elementos.
+
+Sus etiquetas son: <div> y </div> (ambas obligatorias).
+Está definido como: Elemento en bloque.
+Crea una caja: En bloque.
+Puede contener: Texto, y/o cero o más elementos en bloque o en linea.
+-----------------------------------------------------------------------------------------------------------------------
+Rutas relativas dentro de una pagina con salto a otras, en el mismo sitio web.
+pasar de un archivo html, a otro archivo html.
+ejemplo: esto funciona si estan en la misma carpeta:
+
+	<a href="archivo_02.html">Archivo 02</a>
+
+si esta en otra carpeta:
+	
+	<a href="acamica/archivo_02.html">Archivo 02</a>
+
+tengo que poner el nombre de la carpeta en el link.
+
+Para hacer un link para salir de la carpeta en la que estoy:
+	
+	<a href="../archivo_02.html">Archivo 02</a>
+--------------------------------------------------------------------------------------------------------
+atributos globales:
+
+Atributo id: me permite identificar a un elemento de forma unica, con un nombre. 
+	     tiene mayor jerarquia que el atributo class.
+	
+	ej: <h1 id="principal"> Atributo </h1>
+
+se pueden poner todos los id que quieras en las etiquetas, pero no se puede repetir el nombre.
+-----------------------------------------------------------------------------------------------------------------
+atributo class: nos permite darle nombre a un elemento, parecido a id, con la diferencia de que puedo aplicar a varios elementos la misma
+clase. 
+	ej: <p>Un parrafo normal</p>
+
+	    <p class="destacado"> Un parrafo destacado </p>
+
+	    <p class="destacado"> otro parrafo destacado </p>
+----------------------------------------------------------------------------------------------------------------------------------------------
+Qué es la especificidad?
+Mediante la especificidad el navegador decide qué valores de una propiedad de CSS son más relevantes para un elemento. 
+En este caso el id tiene mayor especificidad que el class.
+-----------------------------------------------------------------------------------------------------------------------------
+Box Model:
+
+varias areas dentro de la caja. 
+De adentro hacia afuera, content (contenido): el area donde va a ir el texto por ejemplo.
+				padding: espacio que tenemos entre el content de la caja y el espacio de frontera de la caja.
+					border(borde): frontera de la caja.
+						Margin(margen): define el espacio que va a tener que tener esa caja con otros elementos que puedan estar antes,
+								despues, o hacia los costados.
+
+padding: ej
+		p {
+		    padding: 30px;	
+			}
+
+tambien podemos manejarlo desde los 4 lados independientes.
+
+                 p {
+		    padding-top: 20px;
+		    padding-right: 30px;
+		    padding-bottom: 40px;
+		    padding-left: 50px;	
+			}
+
+border: igual que el padding, se puede especificar solo, o con los 4 lados del borde. Cada uno de los 4 bordes tiene 3 propiedades.
+	
+		ej: h1 {
+			border-top: 5px solid #ff0000;
+			}
+
+*5px: este es el grosor del borde.
+*solid: tipo de borde, hay varios tipos y se puede buscar en la web.
+* #ff000: este es el color del borde, puede ser su codigo hexadecimal o la palabra con el nombre del color.
+
+Margin: Es el margen, se puede utilizar igual que lo hicimos con el padding.
+	
+	p{
+	margin: 10px 20px 0px 7px;
+		}
+incluyendo 4 valores para los 4 lados de la caja.
+Solo los margenes de arriba y de abajo se superponen. por eso siempre hay que separarlos bien porque si no, las cajas van a quedar pegadas.
+
+
+
+Box Model:
+
+* Height: Alto de la caja.
+* Width: Ancho de la caja.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#encabezado{
+background: #f00;
+}
+#principal{
+background: #0f0;
+width: 60%;
+float: left;
+padding: 0.5rem;
+}
+#secundario{
+background: #00f;
+width: 20%;
+float: right;
+padding: 0.5rem;
+}
+
+#terciario{
+    background: purple;
+    width: 20%;
+    float: left;
+padding: 0.5rem;
+}
+#pie{
+background: lightcoral;
+}

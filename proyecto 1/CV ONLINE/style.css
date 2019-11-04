@@ -1,0 +1,100 @@
+    body {
+        display: flex;
+        background: #b5b56c;
+        font-family: 'Open Sans', sans-serif;
+        border: 5px double rgba(116, 110, 110, 0.822);
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 20px 10px;
+        padding-left: 100px;
+        padding-right: 100px
+    }
+    
+    .imgPerfil {
+        height: 200px;
+        border-radius: 50%;
+        padding: 10px 15px;
+        margin: auto;
+    }
+    
+    .imgPortfolio {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .imgPerfil img {
+        margin: auto;
+    }
+    
+    #portfolio {
+        float: left;
+        padding: 0px 15px;
+        margin-left: -20px;
+        margin-top: 250px;
+        text-decoration: none;
+    }
+    
+    #quiensoy {
+        background: #e0e094;
+        border: 1px solid rgba(116, 110, 110, 0.822);
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin: 2%;
+        box-shadow: 10px 5px 5px black;
+    }
+    
+    #formacion,
+    #experiencia,
+    #portfolio-foot {
+        background: #e0e094;
+        margin: 2%;
+        border: 1px solid rgba(116, 110, 110, 0.822);
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        box-shadow: 10px 5px 5px black;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    h1 {
+        color: rgb(104, 101, 101);
+    }
+    
+    ul li {
+        background: #e0e094;
+        color: black;
+        text-decoration: none;
+    }
+    
+    #menu ul li {
+        list-style: none;
+        text-decoration: none;
+        background: #e0e094;
+        color: black;
+        text-decoration: none;
+        margin: 5%;
+        border-bottom-right-radius: 55%;
+        box-shadow: 10px 5px 5px black;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .columna-izquierda {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    
+    .columna-derecha {
+        width: 70%;
+        height: 100%;
+        float: left;
+    }

@@ -1,0 +1,183 @@
+sintaxis:
+Selector: selecciona a que elementos del html hace referencia el estilo.
+propiedad: por ejemplo el color del fondo, el tipo de letra.
+valor: valor que tema la propiedad, por ejemplo en color #FF0000;
+
+	selector {
+	 propiedad: valor;
+	 propiedad: valor;
+	 propiedad: valor;
+	}
+
+
+Selectores
+
+*	Selecciona todos los elementos
+p	Selecciona todos los elementos p
+Colores
+
+color: red;	Cambia el color de la fuente a rojo
+background: black;	Cambia el fondo a negro
+background-color: blue;	Cambia el fondo a azul
+Fuentes de texto
+
+font-family: Arial, sans-serif;	Cambia la familia de la fuente del texto
+font-size: 12px;	Cambia tamaño de la fuente
+font-weight: bold;	Cambia la fuente a negrita
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Box Model:
+
+varias areas dentro de la caja. 
+De adentro hacia afuera, content (contenido): el area donde va a ir el texto por ejemplo.
+				padding: espacio que tenemos entre el content de la caja y el espacio de frontera de la caja.
+					border(borde): frontera de la caja.
+						Margin(margen): define el espacio que va a tener que tener esa caja con otros elementos que puedan estar antes,
+								despues, o hacia los costados.
+
+padding: ej
+		p {
+		    padding: 30px;	
+			}
+
+tambien podemos manejarlo desde los 4 lados independientes.
+
+                 p {
+		    padding-top: 20px;
+		    padding-right: 30px;
+		    padding-bottom: 40px;
+		    padding-left: 50px;	
+			}
+
+border: igual que el padding, se puede especificar solo, o con los 4 lados del borde. Cada uno de los 4 bordes tiene 3 propiedades.
+	
+		ej: h1 {
+			border-top: 5px solid #ff0000;
+			}
+
+*5px: este es el grosor del borde.
+*solid: tipo de borde, hay varios tipos y se puede buscar en la web.
+* #ff000: este es el color del borde, puede ser su codigo hexadecimal o la palabra con el nombre del color.
+
+Margin: Es el margen, se puede utilizar igual que lo hicimos con el padding.
+	
+	p{
+	margin: 10px 20px 0px 7px;
+		}
+incluyendo 4 valores para los 4 lados de la caja.
+Solo los margenes de arriba y de abajo se superponen. por eso siempre hay que separarlos bien porque si no, las cajas van a quedar pegadas.
+
+
+
+Box Model:
+
+* Height: Alto de la caja.
+* Width: Ancho de la caja.
+-------------------------------------------------------------------------------------------------------------
+Selectores:
+
+Descendientes: es cuando una etiqueta se encuentra dentro de otra, podemos decir que esa etiqueta es descendiente de la que esta mas afuera.
+ej {<ul>
+
+	<li> a s d </li>
+
+	</ul>}
+
+id: puedo referenciarlo por su nombre con el # por delante, en el documento css para darle estilo a la etiqueta.
+ej: 	#testeo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background: rgb(224, 80, 23);
+    color: whitesmoke;
+}
+
+class: de la misma forma que con id, puedo referenciarlo con su nombre pero poniendo un punto . por delante, en el documento css para darle estilo.
+	
+	ej: .rtest {
+		color: red;
+		}
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Floats:
+
+El estilo “float” sirve para alinear un elemento, haciendo que el texto de alrededor del mismo se agrupe entorno a dicho elemento. 
+Sus posibles valores son “left” (para alinear el elemento a la izquierda) y “right” (para alinearlo a la derecha).
+Un elemento con float CSS debe tener definida su anchura. De no ser así, no será tratado como tal y el estilo no se aplicará.
+
+ej:  img{
+	float: right;
+	}
+
+float para layouts: por ejemplo puedo poner dos elementos, uno principal y otro secundario, al lado, de la siguiente forma.
+
+#t1{
+width: 70%;
+float: left;
+}
+
+#t2{
+width: 30%;
+float: right;
+
+}
+
+en donde t1 es el principal, a la izquierda, ocupando el 70% y t2 el secundario, a la derecha, ocupando el 30% restante.
+
+--------------------------------------------------------
+display: flex 
+
+esta va de la mano con: aling-items: center;
+			justify-content:center;
+
+inline-block; va junto con flex y sirve mas que nada para hacer esas tipicas paginas con banner y botonera.
+
+googlear sobre em y rem.
+
+googlear sobre position: static;
+			relative;
+			absolute;
+			fixed;
+			sticky;
+
+z-index:
+overflow: scroll;
+
+visores html online
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
