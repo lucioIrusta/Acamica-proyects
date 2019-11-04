@@ -1,2 +1,0 @@
-Llegar a tener un perfil full stack, manejando con fluidez tanto backend como frontend.
-aprender bien tecnologias como docker y nodeJs.
